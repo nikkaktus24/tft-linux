@@ -75,7 +75,7 @@
    "device": "1-8:1.1",
    "led_config": {
       "device": "/dev/ttyUSB0",
-      "theme": 1,
+      "theme": 4,
       "speed": 3,
       "intensity": 3
    },
