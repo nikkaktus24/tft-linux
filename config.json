@@ -40,14 +40,14 @@
       {
          "module": "sensors/network.js",
          "config": {
-            "interface": "enp1s0",
+            "interface": "enp4s0",
             "max_points": 300
          }
       },
       {
          "module": "sensors/network.js",
          "config": {
-            "interface": "wlp2s0",
+            "interface": "enp4s0",
             "max_points": 300
          }
       },
@@ -76,8 +76,8 @@
    "led_config": {
       "device": "/dev/ttyUSB0",
       "theme": 4,
-      "speed": 3,
-      "intensity": 3
+      "speed": 1,
+      "intensity": 5
    },
    "portrait": true
 }

@@ -34,11 +34,11 @@
                "rect": {
                   "x": 65,
                   "y": 5,
-                  "width": 135,
+                  "width": 150,
                   "height": 12
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "{0}: {17}",
                "refresh": 1000,
                "debug_frame": false,
@@ -207,16 +207,16 @@
                "rect": {
                   "x": 70,
                   "y": 50,
-                  "width": 85,
+                  "width": 90,
                   "height": 15
                },
                "sensor": true,
                "value": "cpu_temp",
-               "format": "Temp:       {0}°C",
+               "format": "Temp:      {0}°C",
                "refresh": 1000,
                "debug_frame": false,
-               "font": "12px Arial",
-               "color": "#878787",
+               "font": "600 13px Arial",
+               "color": "#9c9c9c",
                "align": "left"
             },
             {
@@ -264,15 +264,15 @@
                "rect": {
                   "x": 70,
                   "y": 125,
-                  "width": 85,
+                  "width": 90,
                   "height": 15
                },
                "sensor": true,
                "value": "memory",
-               "format": "Use:     {14}",
+               "format": "Use:    {14}",
                "refresh": 1000,
                "debug_frame": false,
-               "font": "12px Arial",
+               "font": "600 13px Arial",
                "color": "#878787",
                "align": "left"
             },
@@ -306,7 +306,7 @@
                   "height": 25
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "cloud-arrow-down-outline",
                "refresh": 1000,
                "debug_frame": false,
@@ -324,7 +324,7 @@
                   "height": 15
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "{15}",
                "refresh": 1000,
                "debug_frame": false,
@@ -343,7 +343,7 @@
                   "height": 25
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "{2}",
                "refresh": 1000,
                "debug_frame": false,
@@ -363,7 +363,7 @@
                   "height": 10
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "{1}",
                "refresh": 1000,
                "debug_frame": false,
@@ -385,7 +385,7 @@
                   "height": 25
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "cloud-arrow-up-outline",
                "refresh": 1000,
                "debug_frame": false,
@@ -403,7 +403,7 @@
                   "height": 15
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "{16}",
                "refresh": 1000,
                "debug_frame": false,
@@ -422,7 +422,7 @@
                   "height": 25
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "{5}",
                "refresh": 1000,
                "debug_frame": false,
@@ -442,7 +442,7 @@
                   "height": 10
                },
                "sensor": true,
-               "value": "network_enp1s0",
+               "value": "network_enp4s0",
                "format": "{4}",
                "refresh": 1000,
                "debug_frame": false,
@@ -454,7 +454,12 @@
                "horizontal": true
             }
          ],
-         "wallpaper": "themes/main/black_bg.png"
+         "wallpaper": "themes/main/black_bg.png",
+         "led_config": {
+            "theme": 4,
+            "intensity": 5,
+            "speed": 1
+         }
       }
    ]
 }
